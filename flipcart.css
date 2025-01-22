@@ -1,0 +1,173 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 38px;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.ll{
+    padding-top: 10px;
+}
+
+
+.searchh input{
+    width:600px;
+    height: 20px;
+    background-color: rgb(247, 249, 249);
+    position: relative;
+    padding: 10px;
+    padding-left: 35px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.searchh svg{
+    position: absolute;
+    left: 180px;
+    top: 20px;
+    color: rgb(172, 168, 168);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 13px;
+    flex-wrap: wrap;
+}
+
+.container figcaption{
+    margin-left: 10px;
+    align-content: center;
+}
+
+.container img{
+    width: 78px;
+    height: 70px;
+    cursor: pointer;
+}
+/* items */
+
+.elect{
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.all{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    transition: 3s;
+}
+
+.all img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.all div{
+    border: 1px solid rgb(197, 196, 196);
+    gap: 10px;
+    margin: 15px;
+    align-content: center;
+    align-items: center;
+    font-display: center;
+}
+
+.all figcaption{
+    align-content: center;
+}
+
+.watch img{
+    margin-top: -1px;
+}
+
+.hh{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hh svg{
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.all img{
+    transition: .4s;
+}
+
+.all img:hover{
+    transform: translate(5px,-5px);
+    text-shadow: 5px;
+}
+
+.all svg{
+    position: relative;
+    left: -2px;
+    top: 0px;
+}
+
+.mon{
+    position: relative;
+    right: 6px;
+}
+
+.toys{
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* travel */
+strong{
+    padding-bottom: 6px;
+}
+
+.men{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.men div{
+    border: 1px solid rgb(197, 196, 196);
+    margin: 5px;
+}
+
+.men img{
+    transition: 0.3s;
+    padding: 6px;
+}
+
+.men img:hover{
+    transform: translate(5px,-5px);
+}
+
+.travel{
+    display
+}
