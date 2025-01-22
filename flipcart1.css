@@ -66,3 +66,8 @@
 .iii svg{
     padding-right: 10px;
 }
+.foot ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
